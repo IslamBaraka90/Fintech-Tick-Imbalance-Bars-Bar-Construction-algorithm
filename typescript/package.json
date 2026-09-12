@@ -1,7 +1,7 @@
 {
   "name": "fintech-tick-imbalance-bars",
   "version": "0.1.0",
-  "description": "Tick-Imbalance Bars for market-data engineering — information-driven bars that close on signed order-flow imbalance against an EWMA-adaptive threshold. Canonical cross-language reference implementation.",
+  "description": "Tick-Imbalance Bars for market-data engineering \u2014 information-driven bars that close on signed order-flow imbalance against an EWMA-adaptive threshold. Canonical cross-language reference implementation.",
   "keywords": [
     "fintech",
     "tick-imbalance-bars",
@@ -49,6 +49,7 @@
     "example": "node --experimental-strip-types examples/quickstart.ts"
   },
   "devDependencies": {
+    "@types/node": "^22.0.0",
     "typescript": "^5.7.0"
   }
 }
